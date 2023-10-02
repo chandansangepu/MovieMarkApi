@@ -1,0 +1,5 @@
+﻿
+
+dotnet ef migrations add sql-init --context MovieMarkContext --project MovieMarkApi
+
+dotnet ef database update --context MovieMarkContext --project MovieMarkApi
